@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Señor Adriano Pizzeria</title>
+    <link rel="stylesheet" href="styles.css">
+    <link
+    rel="stylesheet"
+    type="text/css"
+    href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"/>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+        </style>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Sevillana&display=swap');
+            </style>
+</head>
+<body class="mode">
+    <header class="start">
+        <div class="verh">
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#cerveza">Cerveza</a></li>
+                    <li><a href="#refrescos">Refrescos</a></li>
+                    <li><a href="#reservation">Reservation</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="burger-menu" id="burgerMenu">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </header>
+
+    <main>
+        <div class="logooo">
+            <img id="foto" src="images/logo2.png">
+        </div>
+        <section id="home">
+            <div class="overlay">
+                <div class="container">
+                    <h1 class="bienvenida">Bienvenido A Pizzeria Señor Adriano</h1>
+                    <p class="texto">La mejor pizza casera de la ciudad, prubalas todas para enconrar la ideal para ti!</p>
+                    <div class="mapatextt">
+                        <h1>¿Donde nos encontramos?</h1>
+                        <h1 id="rav">¿Que ofrecemos?</h1>
+                    </div>
+                    <div class="cont">
+                        <div class="mapa">
+                            <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d671.0653029476298!2d-3.3693482437752675!3d40.47936227014138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4249038d6712e5%3A0xaa3fcc31862f6a71!2sSe%C3%B1or%20Adriano!5e0!3m2!1ses!2ses!4v1725287628013!5m2!1ses!2ses" width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        
+                            <div class="galeri">
+                                <div class="image-container a1" style="background-image:url(images/photo_2024-09-14_13-41-51.jpg);">
+                                    <div class="overlay-text">Crepes con mermelada</div>
+                                </div>
+                                <div class="image-container a2" style="background-image:url(images/photo_11_2024-09-04_19-10-40.jpg);">
+                                    <div class="overlay-text">Mojito</div>
+                                </div>
+                                <div class="image-container a3" style="background-image:url(images/photo_3_2024-09-04_19-10-40.jpg);">
+                                    <div class="overlay-text">Rollitos de verenjena</div>
+                                </div>
+                                <div class="image-container a4" style="background-image:url(images/photo_1_2024-09-04_19-10-40.jpg);">
+                                    <div class="overlay-text">Rollitos de jamon cocido</div>
+                                </div>
+                                <div class="image-container a5" style="background-image:url(images/photo_5_2024-09-04_19-10-40.jpg);">
+                                    <div class="overlay-text">Rollitos de gofre</div>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="container" id="menu">
+                        <h2 class="texto" id="texto">Todo el menu lo puede encontar aqui</h2>
+                        <p class="texto">Discubre el maravilloso sabor de cada pizza...</p>
+                        <h3 class="texto" id="texto">Pizzas</h3>
+                        <div class="menuu">
+                            <div class="menuDog">
+                                <div class="menu-item">
+                                    <img src="pizzas/photo_2024-10-11_09-39-39-removebg-preview.png" alt="Много мяса дог">
+                                    <h3>Много мяса дог</h3>
+                                    <p>Большая фирменная колбаска из свинины с сыром, листья салата Айсберг, соус Гусарский, маринованные огурчики и лучок.</p>
+                                    <p>665 ₽</p>
+                                    
+                                </div>
+                                <div class="menu-item">
+                                    <img src="pizzas/photo_2024-11-09_12-46-15-removebg-preview.png" alt="Люля дог">
+                                    <h3>Люля дог</h3>
+                                    <p>Большая фирменная колбаска из свинины с сыром, листья салата Айсберг, соус Гусарский, маринованные огурчики и лучок.</p>
+                                    <p>565 ₽</p>
+                                    
+                                </div>
+                                <div class="menu-item">
+                                    <img src="images/hawaiian-pizza-removebg-preview.png" alt="Гусар дог">
+                                    <h3>Гусар дог</h3>
+                                    <p>Большая фирменная колбаска из свинины с сыром, листья салата Айсберг, соус Гусарский, маринованные огурчики и лучок.</p>
+                                    <p>485 ₽</p>
+                                    
+                                </div>
+                                <h2 class="texto" id="texto">Refrescos</h2>
+                             </div>
+                              <div class="menuDog">
+                                <div class="menu-item">
+                                    <img src="images/pepsi-cola-regular-vetro-da-33-cl-removebg-preview.png" height="70%" alt="Много мяса дог">
+                                    <h3>Pepsi 35cl</h3>
+                                    <p>665 ₽</p>
+                                    
+                                </div>
+                                <div class="menu-item">
+                                    <img src="images/Pepsi-Max-Zero-refresco-sin-azucar-removebg-preview.png" height="70%" alt="Люля дог">
+                                    <h3>Pepsi Zero 35cl</h3>
+                                    <p>565 ₽</p>
+                                    
+                                </div>
+                                <div class="menu-item">
+                                    <img id="imgg4" src="images/lipton-limon-botella-de-vidrio-25-cl-24-u-removebg-preview.png" alt="Гусар дог">
+                                    <h3 id="text4">Lipton 35cl</h3>
+                                    <p id="text5">485 ₽</p>
+                                </div>
+                              </div>
+                              <div class="menuDog">
+                                <div class="menu-item">
+                                    <img src="images/vida-zumo-pina-20-cl-5sentidos-removebg-preview.png" id="imgg5" alt="Много мяса дог">
+                                    <h3 id="text11">Vida Piña 20cl</h3>
+                                    <p id="text11">665 ₽</p>
+                                    
+                                </div>
+                                <div class="menu-item">
+                                    <img src="images/vida-melocoton-bot-vidrio-200-ml-24-u-removebg-preview.png" id="imgg6" alt="Люля дог">
+                                    <h3 id="text6">Vida melocoton 20cl</h3>
+                                    <p id="text7">565 ₽</p>
+                                    
+                                </div>
+                                <div class="menu-item">
+                                    <img src="images/trina_naraj_bot_25_52-removebg-preview.png" id="imgg7" alt="Гусар дог">
+                                    <div id="text8">
+                                        <h3 >Trina naranja 25cl</h3>
+                                        <p >485 ₽</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="menuDog">
+                              <div class="menu-item">
+                                  <img src="images/65dea2af0afa92bc3f54bee9b50cf1e5_ESCALA_EXPANDEIX_360_360-removebg-preview.png" height="70%" alt="Много мяса дог">
+                                  <h3>Pepsi 35cl</h3>
+                                  <p>665 ₽</p>
+                                  
+                              </div>
+                              <div class="menu-item">
+                                  <img src="images/733cb21bbf8120955e315cc8c2cb0ac1_ESCALA_EXPANDEIX_360_360-removebg-preview.png" height="70%" alt="Люля дог">
+                                  <h3>Pepsi Zero 35cl</h3>
+                                  <p>565 ₽</p>
+                                  
+                              </div>
+                              <div class="menu-item">
+                                  <img height="70%" src="images/392012_G-removebg-preview.png" alt="Гусар дог">
+                                  <h3>Lipton 35cl</h3>
+                                  <p>485 ₽</p>
+                              </div>
+                            </div>
+                            <div class="menuDog">
+                              <div class="menu-item">
+                                  <img src="images/00118612101271____2__1200x1200-removebg-preview.png" id="imgg9" alt="Много мяса дог">
+                                  <h3>Sweps</h3>
+                                  <p>665 ₽</p>
+                                  
+                              </div>
+                              <div class="menu-item">
+                                  <img src="images/500890_G-removebg-preview.png" id="imgg8" alt="Люля дог">
+                                  <h3 id="text9">Sweps</h3>
+                                  <p id="text9">565 ₽</p>
+                                  
+                              </div>
+                              <div class="menu-item">
+                                  <img src="images/tonica-schweppes-naranja-250-removebg-preview.png" id="imgg8" alt="Гусар дог">
+                                  <div id="text8">
+                                      <h3 >Sweps</h3>
+                                      <p >485 ₽</p>
+                                  </div>
+                              </div>
+                                <h2 class="texto" id="texto">Cerveza</h2>
+                            </div>
+                           
+                            <div class="menuDog">
+                                <div class="menu-item">
+                                    <img id="imgg" src="images/Botella_Mahou_5_Estrellas.png" alt="Много мяса дог">
+                                    <h3 id="text3">Mahou 5 estrellas</h3>
+                                    <p>3 ₽</p>
+                                </div>
+                                <div class="menu-item">
+                                    <img id="imgg3" src="images/aguila_sin_filtrar-removebg-preview.png" alt="Люля дог">
+                                    <h3 id="text2">Aguila Sin Filtraг</h3>
+                                    <p>565 ₽</p>
+                                </div>
+                                <div class="menu-item">
+                                    <img id="imgg2" src="images/aguila_dorada-removebg-preview.png" alt="Гусар дог">
+                                    <h3 id="text">Aguila Dorada</h3>
+                                    <p>485 ₽</p>
+                                </div>
+                            </div>
+                            <div class="menuDog">
+                                <div class="menu-item">
+                                    <img id="imgg10" src="images/amstel-radler-de-33cl-removebg-preview.png" alt="Много мяса дог">
+                                    <h3 id="text3">Mahou 5 estrellas</h3>
+                                    <p id="text3">3 ₽</p>
+                                </div>
+                                <div class="menu-item">
+                                    <img id="imgg11" src="images/hainiken-removebg-preview.png" alt="Люля дог">
+                                    <h3 id="text10">Aguila Sin Filtraг</h3>
+                                    <p>565 ₽</p>
+                                </div>
+                                <div class="menu-item">
+                                    <img id="imgg12" src="images/tostada_00-removebg-preview.png" alt="Гусар дог">
+                                    <h3 id="text10">Aguila Dorada</h3>
+                                    <p>485 ₽</p>
+                                </div>
+                            </div>
+                        </div>
+                        <h2 id="reservation">Reserve a Table</h2>
+                        <form action="https://api.web3forms.com/submit" method="POST">
+
+                            <input type="hidden" name="access_key" value="27ab2458-7d40-4ef3-9b1f-36448a409f7c">
+                            <label id="name" for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                            
+                            <label id="email" for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                            
+                            <label id="coment" for="coment">coment:</label>
+                            <input type="coment" id="coment" name="coment" required>
+
+                            <label id="date" for="date">Date:</label>
+                            <input type="date" id="date" name="date" required>
+                            
+                            <label id="time" for="time">Time:</label>
+                            <input type="time" id="time" name="time" required>
+                            
+                            <button type="submit">Reserve</button>
+                        </form>
+                    </div>
+                    </div>
+                    <div class="container">
+                        <h2>Contact Us</h2>
+                        <p>Email: contact@senoradriano.com</p>
+                    </div>
+                </div>
+            </div>
+            <footer class="fot">
+                <div class="container">
+                    <p>&copy; 2024 Señor Adriano Pizzeria. All rights reserved.</p>
+                </div>
+            </footer>
+            <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
